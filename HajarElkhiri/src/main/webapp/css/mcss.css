@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+body
+{
+	margin:0;
+	padding:0;
+	background-image: url(../img/dark.jpg);
+	background-size:cover;
+	font-family :sans-serif;
+}
+h1
+{
+	margin : 0 0 10px;
+	padding:0 px;
+	color: #E26500;
+	font-size:24;
+}
+
+.box
+{
+		
+		
+	
+	width: 400px;
+    height: 420px;
+    background: rgb(128, 64, 64);
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+input
+{ 
+	
+	position:realtive;
+	display :inline-block;
+	font-size:20px;
+	box-sizing: border-box;
+	transtion:  .5;
+}
+p
+{ position:center;
+color:#fff;}
+input[type="text"]
+{   
+	left:50px;
+	background-color:#fff;
+	width:340px;
+	height:40px;
+	border: none;
+	outline: none;
+	padding :0 25px;
+	border-radius: 25px 25px  25px 25px;
+	
+	
+	
+}
+input[type="submit"]
+{
+	
+	
+	position :relative;
+	right: -20%;
+	border-radius : 25px 25px 25px 25px;
+     width:150px;
+      height:50px;
+      border: none;
+	outline: none;
+	cursor :pointer;
+	background:rgb(255, 128, 0);
+      
+}
+input[type="submit"]:hover
+{
+	background: rgb(255, 0, 0);
+}
